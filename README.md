@@ -42,11 +42,12 @@ The pretrained weights can be downloaded from:
 
 
 After downloading, please place the model weights as follows:
-Illumination-Features
-│
-├── checkpoints
-│ └── best_model.pth
 
+```text
+Illumination-Features
+├── checkpoints
+    └── best_model.pth
+```
 
 ## 🎬 Test Samples
 
@@ -60,17 +61,20 @@ The test samples can be downloaded from:
 
 After downloading, please organize the files as:
 
-sample_data/
-  dataset_name/
-    feature/
-      lmns_unsup/
-      NL_unsup/
-      NR_unsup/
-      NBL_unsup/
-      NBR_unsup/
-    frames/
-      celeb-real/
-      celeb-fake/
+```text
+Illumination-Features
+└── sample_data
+    └── dataset_name
+        ├── feature
+        │   ├── lmns_unsup
+        │   ├── NL_unsup
+        │   ├── NR_unsup
+        │   ├── NBL_unsup
+        │   └── NBR_unsup
+        └── frames
+            ├── celeb-real
+            └── celeb-fake
+```
 
 
 
