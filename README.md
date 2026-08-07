@@ -12,9 +12,9 @@ Leveraging Spatial-Temporal Illumination Features and Convolution-Transformer Hy
 ## 1. Clone repository
 
 ```bash
-git clone https://github.com/USERNAME/PROJECT.git
+git clone https://github.com/SigmaLab-BJUT/Illumination-Features.git
 
-cd PROJECT
+cd Illumination-Features
 ```
 
 ## 2.Create environment
