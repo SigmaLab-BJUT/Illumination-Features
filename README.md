@@ -64,7 +64,7 @@ We provide several test videos for quick evaluation.
 The test samples can be downloaded from:
 
 🔗 **Google Drive**:
-[Download test samples](YOUR_GOOGLE_DRIVE_LINK)
+[Download test samples](https://drive.google.com/drive/folders/1vmW_slOFvS0LKPrsRWUZtLNpfKLpmute?usp=sharing)
 
 After downloading, please organize the files as:
 
