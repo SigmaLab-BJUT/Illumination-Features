@@ -84,4 +84,19 @@ Illumination-Features
 ```
 
 
+## 📝 Citation
+
+If you find this project useful, please consider citing our paper:
+
+
+```bibtex
+@article{zhang2025leveraging,
+  title={Leveraging spatial-temporal illumination features and convolution-transformer hybrid networks for deepfake video detection},
+  author={Zhang, Guoqiang and Liang, Yu and Tian, Kaiyue and Yi, Jiachen and Alsolai, Hadeel and Liu, Menglu and Hu, Xiyuan},
+  journal={IEEE Transactions on Consumer Electronics},
+  year={2025},
+  publisher={IEEE}
+}
+```
+
 
