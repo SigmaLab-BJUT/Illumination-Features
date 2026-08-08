@@ -38,7 +38,7 @@ We provide pretrained models for evaluation and reproduction.
 The pretrained weights can be downloaded from:
 
 🔗 **Google Drive**:
-[Download pretrained models](YOUR_GOOGLE_DRIVE_LINK)
+[Download pretrained models](https://drive.google.com/file/d/1QdZU0QFebIULjMJ_k1-527mqJjPEqf82/view?usp=drive_link)
 
 
 After downloading, please place the model weights as follows:
