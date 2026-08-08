@@ -2,7 +2,14 @@
 Leveraging Spatial-Temporal Illumination Features and Convolution-Transformer Hybrid Networks for Deepfake Video Detection
 
 
+## 🏗️ Method Overview
 
+
+<p align="center">
+  <img src="assets/framework.svg" width="900">
+</p>
+
+The overall framework of our proposed method.
 
 
 
