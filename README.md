@@ -45,7 +45,7 @@ We provide pretrained models for evaluation and reproduction.
 The pretrained weights can be downloaded from:
 
 🔗 **Google Drive**:
-[Download pretrained models](https://drive.google.com/file/d/1QdZU0QFebIULjMJ_k1-527mqJjPEqf82/view?usp=drive_link)
+[Download pretrained models](https://drive.google.com/file/d/1kv2XSMFrQU5oKa5B71Stp3vcm8jEa-Mk/view?usp=sharing)
 
 
 After downloading, please place the model weights as follows:
@@ -64,14 +64,14 @@ We provide several test videos for quick evaluation.
 The test samples can be downloaded from:
 
 🔗 **Google Drive**:
-[Download test samples](https://drive.google.com/drive/folders/1vmW_slOFvS0LKPrsRWUZtLNpfKLpmute?usp=sharing)
+[Download test samples](https://drive.google.com/drive/folders/1FY_VzOEs0YRFkVp4QJ8G3UcELiPTCHpk?usp=sharing)
 
 After downloading, please organize the files as:
 
 ```text
 Illumination-Features
 └── sample_data
-    └── dataset_name
+    └── celeb-df-v2
         ├── feature
         │   ├── lmns_unsup
         │   ├── NL_unsup
@@ -83,6 +83,19 @@ Illumination-Features
             └── celeb-fake
 ```
 
+## Usage
+
+Run the script with the following command:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python infer.py \
+  --checkpoint ./checkpoints/best_model.pth \
+  --dataset_folder ./sample_data/celeb-df-v2/feature \
+  --frames_root ./sample_data/celeb-df-v2/frames \
+  --batch_size 16 \
+  --num_workers 4 \
+  --print_limit 20
+```
 
 ## 📝 Citation
 
