@@ -5,9 +5,9 @@ import sys
 import torch
 import torch.utils.data as data
 
-sys.path.append("models_Jiang_dim_NoSig_ADD_GAP_learnedP")
+sys.path.append("models_Jiang_dim_NoSig_ADD_GAP")
 from dataGuang_QITA import SetData
-from models_Jiang_dim_NoSig_ADD_GAP_learnedP.Cat_CEit_Xcep_Guang import CatNet
+from models_Jiang_dim_NoSig_ADD_GAP.Cat_CEit_Xcep_Guang import CatNet
 
 
 DEFAULT_FEATURE_ROOT = (
